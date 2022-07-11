@@ -1,0 +1,15 @@
+##Mac
+**/.DS_Store
+
+##Maven
+**/target
+**/build
+**/out
+
+##
+**/.settings
+**/.classpath
+**/.project
+
+##
+**/node_modules
