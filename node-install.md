@@ -278,14 +278,14 @@
     ```
 
 2.	설치
-    v14.4.0을 설치할 것이다. /usr/local/kickscar/node-v14.4.0에 설치할 것이다.
+    v14.4.0을 설치할 것이다. /usr/local/douzone/node-v14.4.0에 설치할 것이다.
 
     ```sh
-    wget https://nodejs.org/dist/v14.4.0/node-v14.4.0.tar.gz
+    wget https://nodejs.org/dist/v16.15.1/node-v16.15.1-linux-x64.tar.gz
     tar xvfz node-v14.4.0.tar.gz
     
 	cd node-v14.4.0
-	./configure --prefix=/usr/local/kickscar/node-v14.4.0
+	./configure --prefix=/usr/local/douzone/node-v14.4.0
     make && make install
 	
     ```
@@ -293,7 +293,7 @@
 3.	링크 작업
 
     ```sh
-    ln -s /usr/local/kickscar/node-v14.4.0 /usr/local/kickscar/node
+    ln -s /usr/local/douzone/node-v14.4.0 /usr/local/douzone/node
 	
     ```
 
